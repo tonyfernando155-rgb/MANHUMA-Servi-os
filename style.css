@@ -1,0 +1,89 @@
+font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f2f5;
+  color: #0a1e3c;
+}
+{
+  background: #0a1e3c;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.topo h1{
+  margin: 0;
+  font-size: 40px;
+}
+
+{
+  color: #ff7a00;
+}
+
+.topo p{
+  color: #cccccc;
+  font-size: 16px;
+}
+
+{
+  display: inline-block;
+  background: #25D366;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.botao:hover{
+  background: #1eb856;
+}
+
+/* 4. CAIXAS BRANCAS */
+.caixa{
+  background: white;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Títulos dentro das caixas */
+.caixa h2{
+  color: #0a1e3c;
+  border-left: 5px solid #ff7a00;
+  padding-left: 10px;
+}
+
+.caixa p{
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* 5. FOTOS */
+.fotos img{
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+/* 6. RODAPÉ */
+.rodape{
+  background: #0a1e3c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+/* 7. PARA TELEMÓVEL - fica bonito no celular */
+@media (max-width: 600px){
+  .topo h1{
+    font-size: 28px;
+  }
+  .caixa{
+    margin: 15px 10px;
+  }
+}
